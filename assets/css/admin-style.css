@@ -1,0 +1,99 @@
+@import url(../fonts/vazir-matn/Vazirmatn.css);
+body,body.rtl, body.rtl .press-this a.wp-switch-editor,
+.csf-theme-dark .csf-header-inner h1,
+.csf-field .csf-title h4{
+    font-family: Vazirmatn!important;
+}
+.csf-warning-primary{
+    content:"open"!important;
+    color: #ffffff!important;
+    font-weight: 600;
+}
+.csf-search,
+.csf-copyright
+{
+    display: none;
+}
+.csf-reset-section{
+    font-weight: 600;
+}
+.csf-header-inner,
+.csf-footer,
+.csf-theme-dark .csf-nav-background
+{
+    background: #222!important;
+}
+.csf-theme-dark .csf-nav ul li a {
+    color: #000;
+    border-color: #ffffff;
+    background-color: #222;
+}
+.csf-theme-dark .csf-nav ul li .csf-active {
+    color: #fff;
+    background-color: #00000047;
+}
+.csf-field-image_select .csf--active figure {
+    border-color: #222;
+}
+.csf-field-image_select figure:before {
+    background-color: #222;
+}
+.csf-theme-dark .csf-expand-all {
+    color: #fff;
+    background-color: #4e4e4e;
+}
+.csf-theme-dark .csf-header-inner h1 small {
+    color: #ddd;
+}
+.csf-field-checkbox ul, .csf-field-radio ul{
+    max-height: 120px!important;
+}
+#footer-thankyou{
+    font-style: normal;
+}
+
+
+.csf-field-content{
+    display: flex;
+    align-items: center;
+}
+.csf-field-content span{
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+.csf-field-content a{
+    text-decoration: none;
+    background: #3b82f6;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    font-weight: 800;
+    font-size: 14px;
+}
+.csf-field-content a svg{
+    width: 30px;
+    margin-left: 8px;
+    height: 27px;
+}
+.csf-field-content .one{
+    text-decoration: none;
+    background: #34b500;
+    color: #ffffff;
+    padding: 7px 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    font-weight: 800;
+    font-size: 14px;
+    border-top: none;
+}
+.csf-field-content .one svg{
+    width: 30px;
+    margin-left: 8px;
+    height: 27px;
+}
